@@ -1,11 +1,11 @@
 ---
 application:
-  name: "djzum"
-  project: "radiolatuya"
+  name: "hezummusic"
+  project: "hezummusic"
   organization: "QoveryCommunity"
 routers:
-- name: "main-djzum"
+- name: "main-hezummusic"
   routes:
-  - application_name: "djzum"
+  - application_name: "hezummusic"
     paths:
     - "/*"
