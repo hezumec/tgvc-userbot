@@ -1,0 +1,11 @@
+---
+application:
+  name: "djzum"
+  project: "radiolatuya"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-djzum"
+  routes:
+  - application_name: "djzum"
+    paths:
+    - "/*"
