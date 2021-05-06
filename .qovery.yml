@@ -1,11 +1,15 @@
 ---
 application:
-  name: "hezummusic"
-  project: "hezummusic"
+  name: "djzum"
+  project: "Djzum"
   organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "zumbase"
+  version: "4.4"
 routers:
-- name: "main-hezummusic"
+- name: "main-djzum"
   routes:
-  - application_name: "hezummusic"
+  - application_name: "djzum"
     paths:
     - "/*"
